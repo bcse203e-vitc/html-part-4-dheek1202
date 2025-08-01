@@ -1,0 +1,26 @@
+body{
+    padding: 5px;
+    width: 800px;
+    border: 2px solid green;
+}
+
+#topic{
+    color: rgba(8, 7, 75, 0.815);
+
+}
+#sub{
+    color: rgb(150, 148, 148);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.para{
+    color: black;
+}
+.click{
+    background-color: rgb(6, 93, 128);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5%;
+}
+.click:hover{
+    background-color: blue;
+}
