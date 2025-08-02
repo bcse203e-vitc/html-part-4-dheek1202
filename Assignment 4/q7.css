@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  background-color: #052052e0;
+  padding: 15px 0;
+  flex-wrap: wrap;
+}
+
+.header {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 8px 12px;
+}
+
+.header:hover {
+  color: rgba(255, 119, 0, 0.933);
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+@media (max-width: 600px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
